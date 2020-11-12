@@ -1,0 +1,18 @@
+# Build artifacts
+build/**
+!build/jacocoHtml/index.html
+codemr/**
+.gradle/**
+
+# Not strictly necessary, however, *.jar files are often ignored and this one is required by the Gradle wrapper.
+!gradle/wrapper/gradle-wrapper.jar
+
+# Editor settings
+.idea/**
+out/
+
+# Database credentials (remove "#" later)
+# src/main/resources/*
+
+# Generated files
+out/**

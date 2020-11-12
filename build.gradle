@@ -1,0 +1,133 @@
+import com.github.spotbugs.SpotBugsTask
+
+plugins {
+    id 'java'
+//    id 'eclipse' // optional (to generate Eclipse project files)
+//    id 'idea' // optional (to generate IntelliJ IDEA project files)
+
+    // Test coverage
+    id 'jacoco'
+
+    // Code style
+    id 'checkstyle'
+
+    // PMD
+    id 'pmd'
+
+    // FindBugs / SpotBugs
+    id "com.github.spotbugs" version "2.0.1"
+}
+
+group 'nl.tudelft.cse.sem.template'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+
+}
+
+test {
+    useJUnitPlatform()
+    jacoco
+    finalizedBy jacocoTestReport
+
+//    jacoco {
+//        enabled = true
+//        includes = ['nl.tudelft.cse.sem.*']
+//        excludes = []
+//    }
+}
+
+jacoco {
+    toolVersion = "0.8.5"
+    reportsDir = file("$buildDir/customJacocoReportDir")
+}
+
+jacocoTestReport {
+    reports {
+        xml.enabled false
+        csv.enabled false
+        html.destination file("${buildDir}/jacocoHtml")
+    }
+
+    jacocoTestReport {
+        afterEvaluate {
+            classDirectories.setFrom(classDirectories.files.collect {
+                fileTree(dir: it, exclude: ['**/Arrow.class',
+                                            '**/Borders.class',
+                                            '**/controllers/**',
+                                            '**/DesktopLauncher.class',
+                                            '**/factories/**',
+                                            '**/game/**',
+                                            '**/generalize/**',
+                                            '**/helpers/**',
+                                            '**/screens/**',
+                                            '**/scenes/**'])
+            })
+        }
+    }
+}
+
+dependencies {
+    testImplementation('org.junit.jupiter:junit-jupiter:5.5.2')
+    spotbugsPlugins 'com.h3xstream.findsecbugs:findsecbugs-plugin:1.7.1'
+
+    compile group: 'com.badlogicgames.gdx', name: 'gdx', version: '1.9.10'
+    compile group: 'com.badlogicgames.gdx', name: 'gdx-box2d', version: '1.9.10'
+    compile "com.badlogicgames.gdx:gdx-backend-lwjgl:1.9.10"
+    compile "com.badlogicgames.gdx:gdx-platform:1.9.10:natives-desktop"
+    compile "com.badlogicgames.gdx:gdx-box2d-platform:1.9.10:natives-desktop"
+    compile "com.badlogicgames.gdx:gdx:1.9.10"
+    compile "com.badlogicgames.gdx:gdx-box2d:1.9.10"
+    compile group: 'mysql', name: 'mysql-connector-java', version: '8.0.18'
+
+    testCompile group: 'org.mockito', name: 'mockito-core', version: '2.1.0'
+    //testImplementation 'org.mockito:mockito-core:2.7.22'
+
+    compile 'commons-codec:commons-codec:1.13'
+}
+
+jacocoTestCoverageVerification {
+    violationRules {
+        rule {
+            enabled = true
+            element = 'CLASS'
+            includes = ['nl.tudelft.cse.sem.*']
+
+            limit {
+                counter = 'LINE'
+                value = 'TOTALCOUNT'
+                maximum = 0.3
+            }
+        }
+    }
+}
+
+checkstyle {
+    toolVersion "8.25"
+    configFile = rootProject.file('config/checkstyle/checkstyle.xml')
+}
+
+pmd {
+    incrementalAnalysis = true
+}
+
+spotbugs {
+    sourceSets = [sourceSets.main]
+    ignoreFailures = false
+    effort = "default"
+    reportLevel = "high"
+    visitors = ["FindSqlInjection", "SwitchFallthrough"]
+    excludeFilter = file("$rootProject.projectDir/config/spotbugs/excludeFilter.xml")
+}
+
+tasks.withType(SpotBugsTask) {
+    reports.xml.enabled = false
+    reports.html.enabled = true
+}
+
+wrapper {
+    distributionType = Wrapper.DistributionType.ALL
+}

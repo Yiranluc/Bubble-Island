@@ -1,0 +1,9 @@
+The purpose of this game is to remove all bubbles in the centerpiece. Press play to start the game.
+
+First press your left mouse button and move your cursor around. See how the arrow rotates accordingly? Now aim and release to shoot a bubble. Bubbles will bounce off of walls until they hit the centerpiece. A bubble will expire when it has been moving around for too long, to keep you from waiting.
+
+Your goal is to form chains of at least three same-colored bubbles. By doing this, the bubbles will be eliminated and you are rewarded with points. Every bubble that was not shot by you is worth ten points.
+
+The game is won when all bubbles have been eliminated. If you do this quick enough, you will be rewarded with a time bonus!
+
+The game is lost when a bubble hits the edge of the screen. Be aware that the bubble structure will spin after being hit!
