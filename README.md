@@ -1,7 +1,3 @@
-[![pipeline status](https://gitlab.ewi.tudelft.nl/cse2115/2019-2020/BS/sem-group-20/template/badges/master/pipeline.svg?style=flat)](https://gitlab.ewi.tudelft.nl/cse2115/2019-2020/BS/sem-group-20/template/commits/master)
-
-![coverage](https://gitlab.ewi.tudelft.nl/cse2115/2019-2020/BS/sem-group-20/template/badges/master/coverage.svg?job=coverage&style=flat)
-
 # Bubble Spinner
 
 Hi, welcome to our game!
