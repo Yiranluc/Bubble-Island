@@ -3,15 +3,15 @@
 Hi, welcome to our game Bubble Island!
 Create an account or log into an existing one to start playing.
 
-# Splash Screen
+## Splash Screen
 
 ![picture2](https://raw.githubusercontent.com/Yiranluc/Bubble-Island/blob/master/doc/splashScreen.png)
-# Game manual
+## Game manual
 
 The game rule is shown below:
 ![picture1](https://raw.githubusercontent.com/Yiranluc/Bubble-Island/blob/master/doc/game%20rule.png)
 
-# Game Screen
+## Game Screen
 Two examples are shown below:
 
 ![picture3](https://raw.githubusercontent.com/Yiranluc/Bubble-Island/blob/master/doc/game%20screen.png)
@@ -20,12 +20,12 @@ Two examples are shown below:
  
 You can also pause the game while playing:
 
-![picture4](https://raw.githubusercontent.com/Yiranluc/Bubble-Island/blob/master/doc/pause%20screen.png)
+![picture5](https://raw.githubusercontent.com/Yiranluc/Bubble-Island/blob/master/doc/pause%20screen.png)
 
-# LeaderBoard
+## LeaderBoard
 An example of the leaderboard is shown below:
 
-![picture4](https://raw.githubusercontent.com/Yiranluc/Bubble-Island/blob/master/doc/leaderboard.png)
+![picture6](https://raw.githubusercontent.com/Yiranluc/Bubble-Island/blob/master/doc/leaderboard.png)
 
 ## Credits
 This game was brought to you by:
