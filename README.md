@@ -15,17 +15,18 @@ The game rule is shown below:
 # Game Screen
 Two examples are shown below:
 
-![picture3](https://raw.githubusercontent.com/Yiranluc/cs5520project/gh-pages/_posts/pictures/game%20screen.png)
-![picture4](https://raw.githubusercontent.com/Yiranluc/cs5520project/gh-pages/_posts/pictures/game%20screen%202.png)
+![picture3](https://raw.githubusercontent.com/Yiranluc/Bubble-Island/blob/master/doc/game%20screen.png)
+
+![picture4](https://raw.githubusercontent.com/Yiranluc/Bubble-Island/blob/master/doc/game%20screen%202.png)
  
 You can also pause the game while playing:
 
-![picture4](https://raw.githubusercontent.com/Yiranluc/cs5520project/gh-pages/_posts/pictures/pause%20screen.png)
+![picture4](https://raw.githubusercontent.com/Yiranluc/Bubble-Island/blob/master/doc/pause%20screen.png)
 
 # LeaderBoard
 An example of the leaderboard is shown below:
 
-![picture4](https://raw.githubusercontent.com/Yiranluc/cs5520project/gh-pages/_posts/pictures/leaderboard.png)
+![picture4](https://raw.githubusercontent.com/Yiranluc/Bubble-Island/blob/master/doc/leaderboard.png)
 
 ## Credits
 This game was brought to you by:
