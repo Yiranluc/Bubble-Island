@@ -1,10 +1,10 @@
-# Bubble Spinner
+# Bubble Island
 
-Hi, welcome to our game!
+Hi, welcome to our game Bubble Island!
 Create an account or log into an existing one to start playing.
 
 ## Game manual
-The game rules can be found [[here](/src/main/resources/gameManual.txt)].
+The game rules is shown below:
 
 ## Credits
 This game was brought to you by:
