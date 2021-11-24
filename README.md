@@ -5,8 +5,7 @@ Create an account or log into an existing one to start playing.
 
 # Splash Screen
 
-![picture2](https://raw.githubusercontent.com/Yiranluc/cs5520project/gh-pages/_posts/pictures/splashScreen.png)
-
+![picture2](https://raw.githubusercontent.com/Yiranluc/Bubble-Island/blob/master/doc/splashScreen.png)
 # Game manual
 
 The game rule is shown below:
