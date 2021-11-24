@@ -10,14 +10,13 @@ Create an account or log into an existing one to start playing.
 
 The game rule is shown below:
 
-![picture1](https://raw.githubusercontent.com/Yiranluc/Bubble-Island/master/doc/game%20rule.png)
+![picture1](https://raw.githubusercontent.com/Yiranluc/Bubble-Island/master/doc/gameRule.png)
 
 ## Game Screen
 Two examples are shown below:
 
-![picture3](https://raw.githubusercontent.com/Yiranluc/Bubble-Island/master/doc/game%20screen.png)
+![picture3](https://raw.githubusercontent.com/Yiranluc/Bubble-Island/master/doc/gameScreen.png)
 
-![picture4](https://raw.githubusercontent.com/Yiranluc/Bubble-Island/master/doc/game%20screen%202.png)
  
 You can also pause the game while playing:
 
