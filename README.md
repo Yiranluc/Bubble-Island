@@ -5,27 +5,28 @@ Create an account or log into an existing one to start playing.
 
 ## Splash Screen
 
-![picture2](https://raw.githubusercontent.com/Yiranluc/Bubble-Island/blob/master/doc/splashScreen.png)
+![picture2](https://raw.githubusercontent.com/Yiranluc/Bubble-Island/master/doc/splashScreen.png)
 ## Game manual
 
 The game rule is shown below:
-![picture1](https://raw.githubusercontent.com/Yiranluc/Bubble-Island/blob/master/doc/game%20rule.png)
+
+![picture1](https://raw.githubusercontent.com/Yiranluc/Bubble-Island/master/doc/game%20rule.png)
 
 ## Game Screen
 Two examples are shown below:
 
-![picture3](https://raw.githubusercontent.com/Yiranluc/Bubble-Island/blob/master/doc/game%20screen.png)
+![picture3](https://raw.githubusercontent.com/Yiranluc/Bubble-Island/master/doc/game%20screen.png)
 
-![picture4](https://raw.githubusercontent.com/Yiranluc/Bubble-Island/blob/master/doc/game%20screen%202.png)
+![picture4](https://raw.githubusercontent.com/Yiranluc/Bubble-Island/master/doc/game%20screen%202.png)
  
 You can also pause the game while playing:
 
-![picture5](https://raw.githubusercontent.com/Yiranluc/Bubble-Island/blob/master/doc/pause%20screen.png)
+![picture5](https://raw.githubusercontent.com/Yiranluc/Bubble-Island/master/doc/pause%20screen.png)
 
 ## LeaderBoard
 An example of the leaderboard is shown below:
 
-![picture6](https://raw.githubusercontent.com/Yiranluc/Bubble-Island/blob/master/doc/leaderboard.png)
+![picture6](https://raw.githubusercontent.com/Yiranluc/Bubble-Island/master/doc/leaderboard.png)
 
 ## Credits
 This game was brought to you by:
