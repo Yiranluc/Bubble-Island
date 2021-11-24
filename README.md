@@ -10,7 +10,6 @@ Create an account or log into an existing one to start playing.
 
 The game rule is shown below:
 
-![picture1](https://raw.githubusercontent.com/Yiranluc/Bubble-Island/master/doc/gameRule.png)
 
 ## Game Screen
 Two examples are shown below:
@@ -20,7 +19,7 @@ Two examples are shown below:
  
 You can also pause the game while playing:
 
-![picture5](https://raw.githubusercontent.com/Yiranluc/Bubble-Island/master/doc/pause%20screen.png)
+![picture5](https://raw.githubusercontent.com/Yiranluc/Bubble-Island/master/doc/pauseScreen.png)
 
 ## LeaderBoard
 An example of the leaderboard is shown below:
